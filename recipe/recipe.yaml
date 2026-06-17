@@ -1,6 +1,6 @@
 context:
   name: cargo-expand
-  version: "1.0.122"
+  version: "1.0.123"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/dtolnay/${{ name }}/archive/refs/tags/${{ version }}.tar.gz
-  sha256: fc1788db7096de68c9b57fee9b54fd7c053ca4e080555b4dc49a6690d1d03abe
+  sha256: 31901f08b1459dc8460fdca49b8d47a7cdbae9b2835b6de022c50e4ffa9f3367
 
 build:
   number: 0
